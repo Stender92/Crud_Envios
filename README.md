@@ -21,6 +21,9 @@ Iniciar la base de datos del programa
 Para iniciar la base de datos y que esta se muestre en el crud solo necesitas escribir en el segundo terminal los siguientes comandos
 ```
 pip install coreapi
+python -m pip install django-cors-headers
+pip install djangorestframework
 python manage.py runserver
 ```
+
 y listo!
